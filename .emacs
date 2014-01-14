@@ -101,6 +101,9 @@
 (setq tramp-default-method "ssh")
 
 ;; change background color in graphic mode
-(when (display-graphic-p)
-	(set-background-color "black"))
-	(set-foreground-color "green")
+;;(when (display-graphic-p)
+;;	(set-background-color "black"))
+;;	(set-foreground-color "green")
+
+(set-background-color "grey10")
+(set-foreground-color "DodgerBlue2")
